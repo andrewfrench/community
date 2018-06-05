@@ -13,7 +13,7 @@ Issue Summary:
 "Remaining actions:
 
 * [ ] Review release (product owner)
-* [ ] Confirm [Semantic Versioning compatibility](https://github.com/drud/ddev/issues/352)(release manager)
+* [ ] Confirm [Semantic Versioning compatibility](https://github.com/drud/ddev/issues/352) (release manager)
 * [ ] Approve release (product owner and release manager)
 * [ ] Draft release notes (release manager)
 * [ ] Draft additional announcements for blog, newsletter, etc (not applicable at the moment)
@@ -21,11 +21,11 @@ Issue Summary:
 * [ ] Push all containers to Docker Hub (release manager)
 * [ ] Add the commit list to the release (release manager)
 * [ ] Upload CircleCI build artifacts (except Windows installer) to the release (release manager)
-* [ ] Update homebrew formula with new MacOS .tar.gz artifact and SHA checksum (release manager)
-* [ ] Test `homebrew ddev upgrade` (any DRUD maintainer)
+* [ ] Update the ddev [homebrew formula](https://github.com/drud/homebrew-ddev) with new MacOS .tar.gz artifact and SHA checksum (release manager)
+* [ ] Test `brew ddev upgrade` (any DRUD maintainer)
 * [ ] Sign the Windows installer, [requires Windows and certificate](https://github.com/drud/ddev/issues/840) (release manager)
 * [ ] Test the Windows installer (any DRUD maintainer)
-* [ ] Upload the signed Windows installer and SHA checksum to the release (any DRUD maintainer)
+* [ ] Upload the signed Windows installer and SHA checksum to the release (release manager)
 * [ ] In accordance with [U.S Department of Commerce cryptographic legislation](https://www.bis.doc.gov/index.php/policy-guidance/encryption/encryption-faqs/15-policy-guidance/encryption) we need to send an email drafted from [this template](bis_template.md) to crypt@bis.doc.gov and enc@nsa.gov notifying the BIS of publicly available source code with encryption technology on major point releases.
 
 For additional background information, please see our [Product Release](https://github.com/drud/community/blob/master/development/product_release.md) instructions here."
